@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D6DB6DBA-A4CD-44FB-9BDE-D5D9EF23395C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyLirarySystem</RootNamespace>
+    <AssemblyName>MyLirarySystem</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>图书馆.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin4">
+      <HintPath>F:\MyLirarySystem\MyLirarySystem\bin\Debug\IrisSkin4.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAboutUs.Designer.cs">
+      <DependentUpon>FrmAboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddition.Designer.cs">
+      <DependentUpon>FrmAddition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdvance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdvance.Designer.cs">
+      <DependentUpon>FrmAdvance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAmend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAmend.Designer.cs">
+      <DependentUpon>FrmAmend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBookputaway.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookputaway.Designer.cs">
+      <DependentUpon>FrmBookputaway.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBorrowBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBorrowBooks.Designer.cs">
+      <DependentUpon>FrmBorrowBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBookAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookAdd.Designer.cs">
+      <DependentUpon>FrmBookAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBookInfoManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookInfoManager.Designer.cs">
+      <DependentUpon>FrmBookInfoManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="FrmBooksInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBooksInfo.Designer.cs">
+      <DependentUpon>FrmBooksInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBookUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookUpdate.Designer.cs">
+      <DependentUpon>FrmBookUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBorrowAndReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBorrowAndReturn.Designer.cs">
+      <DependentUpon>FrmBorrowAndReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBorrowRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBorrowRecord.Designer.cs">
+      <DependentUpon>FrmBorrowRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBorrowStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBorrowStatistics.Designer.cs">
+      <DependentUpon>FrmBorrowStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChart .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChart .Designer.cs">
+      <DependentUpon>FrmChart .cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManage.Designer.cs">
+      <DependentUpon>FrmManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmManageReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManageReader.Designer.cs">
+      <DependentUpon>FrmManageReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOffer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOffer.Designer.cs">
+      <DependentUpon>FrmOffer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOverdue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOverdue.Designer.cs">
+      <DependentUpon>FrmOverdue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPhiloloy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPhiloloy.Designer.cs">
+      <DependentUpon>FrmPhiloloy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRanking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRanking.Designer.cs">
+      <DependentUpon>FrmRanking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReaderAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReaderAdd.Designer.cs">
+      <DependentUpon>FrmReaderAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReaderMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReaderMain.Designer.cs">
+      <DependentUpon>FrmReaderMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReaderUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReaderUpdate.Designer.cs">
+      <DependentUpon>FrmReaderUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRecommend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRecommend.Designer.cs">
+      <DependentUpon>FrmRecommend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRenew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRenew.Designer.cs">
+      <DependentUpon>FrmRenew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailVeriCodeClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="State.cs" />
+    <Compile Include="StaticStore.cs" />
+    <EmbeddedResource Include="FrmAboutUs.resx">
+      <DependentUpon>FrmAboutUs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddition.resx">
+      <DependentUpon>FrmAddition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdvance.resx">
+      <DependentUpon>FrmAdvance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAmend.resx">
+      <DependentUpon>FrmAmend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookputaway.resx">
+      <DependentUpon>FrmBookputaway.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBorrowBooks.resx">
+      <DependentUpon>FrmBorrowBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookAdd.resx">
+      <DependentUpon>FrmBookAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookInfoManager.resx">
+      <DependentUpon>FrmBookInfoManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBooksInfo.resx">
+      <DependentUpon>FrmBooksInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookUpdate.resx">
+      <DependentUpon>FrmBookUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBorrowAndReturn.resx">
+      <DependentUpon>FrmBorrowAndReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBorrowRecord.resx">
+      <DependentUpon>FrmBorrowRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBorrowStatistics.resx">
+      <DependentUpon>FrmBorrowStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChart .resx">
+      <DependentUpon>FrmChart .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmManage.resx">
+      <DependentUpon>FrmManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmManageReader.resx">
+      <DependentUpon>FrmManageReader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOffer.resx">
+      <DependentUpon>FrmOffer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOverdue.resx">
+      <DependentUpon>FrmOverdue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPhiloloy.resx">
+      <DependentUpon>FrmPhiloloy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRanking.resx">
+      <DependentUpon>FrmRanking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReaderAdd.resx">
+      <DependentUpon>FrmReaderAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReaderMain.resx">
+      <DependentUpon>FrmReaderMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReaderUpdate.resx">
+      <DependentUpon>FrmReaderUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRecommend.resx">
+      <DependentUpon>FrmRecommend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRenew.resx">
+      <DependentUpon>FrmRenew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="图书馆.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tetShow.Text" xml:space="preserve">
+    <value>第一章 总则
+第一条 为进一步加强和规范图书（刊）的借阅流通，充分利用纸本书刊资源，更好地为学校教学、科研服务，结合我校实际情况，制订本管理办法。
+
+第二章 图书的借阅管理
+第二条 读者凭借阅证借阅图书，无证不可借书。
+第三条 读者还书须到借阅处办理还书。
+第四条 图书续借，每册图书只能续借一次。如有图书逾期未还时，不能续借。
+第五条 借书数量及期限。
+第六条 每人可借图书5册，借阅期限为30天。
+
+第三章 图书逾期赔偿的管理
+第七条 图书超期按以下规定予以处罚。
+（一）为了提高图书流通率，保护读者权益，对未能在规定日期之前归还的读者，本馆实行借阅逾期处罚制度，外借图书超过借阅期，停借图书2周。
+第八条 对拒付赔款、罚款者，停止借阅。
+
+第四章 阅览室的管理
+第九条 读者凭借阅证方可进入本图书。
+第十章 严格遵守借阅管理制度
+
+第五章 附 则
+第十一条 本管理制度解释权归本软件，自发布之日起施行。
+</value>
+  </data>
+  <metadata name="skinEngine1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        yP9QsuT/U8X2/2fK+P/M7/7/QYW+/x08VhYAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADNHevnHar1f/e+///mN/8/1/J9/9fyPb/Xsn3/13I
+        9/9ayfn/Vcb3/0/B9f+B1Pn/1fX//2qk0P85e7KdAAAAAwAAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFNX2453Sq1f/X9P7/xvD//5Ha
+        +/920Pj/dM/3/3LO+P+K1/n/wOv//9Lw/v9po9D/OHy0rwAAAAQAAAAAAAAAAP///wAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAENny1rUCJ
+        wP+Yyej/zPD//9/5///e+P//3fj//8jq+v+SwOL/P4S+/zl+tpoAAAADAAAAAAAAAAAAAAAA////AAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAABN3esODd8tqw3frr/NX25/zmGwf81fbn/N3+59jl+t60sXocOAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A/////4Af//+AH///gAf//4AH//+AAf//gAH//8AB///gAB//8AAP//gA
+        B//8AAAP/gAAB/8AAAP/gAAB/8AAAP/gAAD/8AAA//gAAP/4AAD/+AAA//gAAP/4AAD/+AAA//gAAP/4
+        AAH//AAB//4AA///AAf//4Af//////////8=
+</value>
+  </data>
+</root>
